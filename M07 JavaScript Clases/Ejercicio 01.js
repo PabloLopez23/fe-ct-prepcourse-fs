@@ -10,7 +10,7 @@ function crearUsuario() {
    // El valor {{nombre}} debe ser el nombre definido para la instancia de la clase.
    // Retornar la clase.
    // Tu código:
-   /*function Usuario(usuario, nombre, email, password) {
+   /* function Usuario(usuario, nombre, email, password) {
       this.usuario = usuario;
       this.nombre = nombre;
       this.email = email;
@@ -22,6 +22,7 @@ function crearUsuario() {
 return Usuario;
 }
 */
+
 class Usuario {
    constructor(usuario, nombre, email, password) {
      this.usuario = usuario;
